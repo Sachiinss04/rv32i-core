@@ -1,0 +1,4 @@
+sim/build/
+*.bak
+__pycache__/
+*.vcd

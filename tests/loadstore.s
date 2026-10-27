@@ -1,0 +1,20 @@
+li x1, 0x100
+li x2, 0xdeadbeef
+sw x2, 0(x1)
+lw x3, 0(x1)
+lb x4, 0(x1)
+lbu x5, 0(x1)
+lb x6, 1(x1)
+lbu x7, 3(x1)
+lh x8, 0(x1)
+lhu x9, 0(x1)
+lh x10, 2(x1)
+lhu x11, 2(x1)
+sb x0, 1(x1)
+lw x12, 0(x1)
+li x13, 0x1234
+sh x13, 2(x1)
+lw x14, 0(x1)
+sb x13, 7(x1)
+lw x15, 4(x1)
+ebreak
